@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+}
+
+input, select {
+  font-size: 1.2rem;
+  width: 40%;
+  padding: 0.8rem 1.6rem;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -moz-appearance: textField;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearence: none;
+  margin: 0;
+}
+
+/* input[type=submit] { */
+button {
+  width: 40%;
+  background-color: #E20074;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E60077;
+}
+
+li {
+  padding: .5rem;
+}
+
+ol li {
+  color: #E20074;
+  font-size: 0.8rem;
+}
+ol li p {
+  color: #000000;
+  font-size: 1rem;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+h3 {
+  margin-left: 2rem;
+}
+
+.error {
+  color: red;
+  font-size: .8rem;
+}
+
+div.container {
+  border-radius: 5px;
+  border-color: #E20074;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #f2f2f2;
+  padding: 5%;  
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
